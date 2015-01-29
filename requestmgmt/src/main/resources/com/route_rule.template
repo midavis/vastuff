@@ -59,9 +59,6 @@
       <variable>p</variable>
     </modify>
     <freeForm>
-      <text>System.out.println(&quot;fired rule &quot; + kcontext.getRule().getName());</text>
-    </freeForm>
-    <freeForm>
       <text>System.out.println(&quot;routing to center &quot; + $city);</text>
     </freeForm>
   </rhs>
