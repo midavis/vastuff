@@ -36,6 +36,18 @@
             <fieldName>state</fieldName>
             <fieldType>String</fieldType>
           </fieldConstraint>
+          <fieldConstraint>
+            <value>$status</value>
+            <operator>==</operator>
+            <constraintValueType>7</constraintValueType>
+            <expression>
+              <parts/>
+            </expression>
+            <parameters/>
+            <factType>patient</factType>
+            <fieldName>status</fieldName>
+            <fieldType>String</fieldType>
+          </fieldConstraint>
         </constraints>
       </constraintList>
       <factType>patient</factType>
@@ -79,27 +91,38 @@
       <string>__ID_KOL_NAME__</string>
       <list>
         <string>1</string>
+        <string>0</string>
       </list>
     </entry>
     <entry>
       <string>$state</string>
       <list>
         <string>MD</string>
+        <string></string>
+      </list>
+    </entry>
+    <entry>
+      <string>$status</string>
+      <list>
+        <string>initial</string>
+        <string></string>
       </list>
     </entry>
     <entry>
       <string>$city</string>
       <list>
-        <string>Harrisburg</string>
+        <string>Hagerstown</string>
+        <string></string>
       </list>
     </entry>
     <entry>
       <string>$disabled</string>
       <list>
         <string>true</string>
+        <string>false</string>
       </list>
     </entry>
   </table>
   <idCol>1</idCol>
-  <rowsCount>1</rowsCount>
+  <rowsCount>2</rowsCount>
 </rule>
