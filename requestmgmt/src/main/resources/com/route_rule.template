@@ -42,17 +42,16 @@
     </fact>
   </lhs>
   <rhs>
-    <modify>
+    <setField>
       <fieldValues>
         <fieldValue>
           <field>city</field>
-          <value>$city</value>
-          <nature>7</nature>
+          <nature>0</nature>
           <type>String</type>
         </fieldValue>
       </fieldValues>
       <variable>p</variable>
-    </modify>
+    </setField>
     <freeForm>
       <text>System.out.println(&quot;routing to  &quot; + p.getCity() + (&quot; center&quot;));</text>
     </freeForm>
@@ -80,12 +79,6 @@
       <string>$state</string>
       <list>
         <string>MD</string>
-      </list>
-    </entry>
-    <entry>
-      <string>$city</string>
-      <list>
-        <string>Harrisburg</string>
       </list>
     </entry>
     <entry>
