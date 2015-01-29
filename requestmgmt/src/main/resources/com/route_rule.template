@@ -1,12 +1,7 @@
 <rule>
   <name>route_rule</name>
   <modelVersion>1.0</modelVersion>
-  <attributes>
-    <attribute>
-      <attributeName>ruleflow-group</attributeName>
-      <value>routing</value>
-    </attribute>
-  </attributes>
+  <attributes/>
   <metadataList/>
   <lhs>
     <fact>
