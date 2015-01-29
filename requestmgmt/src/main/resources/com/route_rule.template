@@ -3,16 +3,83 @@
   <modelVersion>1.0</modelVersion>
   <attributes/>
   <metadataList/>
-  <lhs/>
-  <rhs/>
+  <lhs>
+    <fact>
+      <constraintList>
+        <constraints>
+          <fieldConstraint>
+            <value>$disabled</value>
+            <operator>==</operator>
+            <constraintValueType>7</constraintValueType>
+            <expression>
+              <parts/>
+            </expression>
+            <parameters/>
+            <factType>patient</factType>
+            <fieldName>disabled</fieldName>
+            <fieldType>Boolean</fieldType>
+          </fieldConstraint>
+          <fieldConstraint>
+            <value>$state</value>
+            <operator>in</operator>
+            <constraintValueType>1</constraintValueType>
+            <expression>
+              <parts/>
+            </expression>
+            <parameters/>
+            <factType>patient</factType>
+            <fieldName>state</fieldName>
+            <fieldType>String</fieldType>
+          </fieldConstraint>
+        </constraints>
+      </constraintList>
+      <factType>patient</factType>
+      <boundName>p</boundName>
+      <isNegated>false</isNegated>
+      <window>
+        <parameters/>
+      </window>
+    </fact>
+  </lhs>
+  <rhs>
+    <setField>
+      <fieldValues>
+        <fieldValue>
+          <field>city</field>
+          <value>$city</value>
+          <nature>7</nature>
+          <type>String</type>
+        </fieldValue>
+      </fieldValues>
+      <variable>p</variable>
+    </setField>
+    <freeForm>
+      <text>println(&quot;routing to center &quot;);</text>
+    </freeForm>
+  </rhs>
   <imports>
-    <imports/>
+    <imports>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>com.va.requestmgmt.appreq</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>com.va.requestmgmt.patient</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+    </imports>
   </imports>
   <packageName>com</packageName>
   <isNegated>false</isNegated>
   <table>
     <entry>
       <string>__ID_KOL_NAME__</string>
+      <list/>
+    </entry>
+    <entry>
+      <string>$city</string>
+      <list/>
+    </entry>
+    <entry>
+      <string>$disabled</string>
       <list/>
     </entry>
   </table>
