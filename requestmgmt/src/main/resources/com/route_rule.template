@@ -22,7 +22,7 @@
           <fieldConstraint>
             <value>$state</value>
             <operator>in</operator>
-            <constraintValueType>1</constraintValueType>
+            <constraintValueType>7</constraintValueType>
             <expression>
               <parts/>
             </expression>
@@ -69,17 +69,33 @@
   <table>
     <entry>
       <string>__ID_KOL_NAME__</string>
-      <list/>
+      <list>
+        <string>1</string>
+        <string>0</string>
+      </list>
+    </entry>
+    <entry>
+      <string>$state</string>
+      <list>
+        <string>MD,VA,DC,NC,DE,PA</string>
+        <string></string>
+      </list>
     </entry>
     <entry>
       <string>$city</string>
-      <list/>
+      <list>
+        <string>Harrisburg</string>
+        <string></string>
+      </list>
     </entry>
     <entry>
       <string>$disabled</string>
-      <list/>
+      <list>
+        <string>true</string>
+        <string>false</string>
+      </list>
     </entry>
   </table>
-  <idCol>0</idCol>
-  <rowsCount>0</rowsCount>
+  <idCol>1</idCol>
+  <rowsCount>2</rowsCount>
 </rule>
