@@ -58,6 +58,9 @@
       </fieldValues>
       <variable>p</variable>
     </modify>
+    <freeForm>
+      <text>System.out.println(&quot;fired&quot;);</text>
+    </freeForm>
   </rhs>
   <imports>
     <imports>
