@@ -4,19 +4,19 @@
 <property name="name" value="requestmgmt.requestflow-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="newpatient_disabled" type="CheckBox" id="1901516821">
+<field position="0" name="newpatient_disabled" type="CheckBox" id="1448508292">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;disabled (newpatient)quot;"/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="frompatient/disabled"/>
+<property name="outputBinding" value="patient/disabled"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="1" name="newpatient_state" type="InputText" id="1442304906">
+<field position="1" name="newpatient_state" type="InputText" id="1120965440">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;state (newpatient)quot;"/>
 <property name="inputBinding" value=""/>
-<property name="outputBinding" value="frompatient/state"/>
+<property name="outputBinding" value="patient/state"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="frompatient" value="com.va.requestmgmt.patient" id="newpatient"/>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="patient" value="com.va.requestmgmt.patient" id="newpatient"/>
 </form>
