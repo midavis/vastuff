@@ -42,7 +42,7 @@
     </fact>
   </lhs>
   <rhs>
-    <setField>
+    <modify>
       <fieldValues>
         <fieldValue>
           <field>city</field>
@@ -52,10 +52,7 @@
         </fieldValue>
       </fieldValues>
       <variable>p</variable>
-    </setField>
-    <freeForm>
-      <text>println(&quot;routing to center &quot;);</text>
-    </freeForm>
+    </modify>
   </rhs>
   <imports>
     <imports>
