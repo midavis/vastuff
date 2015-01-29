@@ -25,6 +25,10 @@
       <ruleName>route_rule_0</ruleName>
       <expectedFire>true</expectedFire>
     </expect-rule>
+    <expect-rule>
+      <ruleName>route_rule_0</ruleName>
+      <expectedFire>true</expectedFire>
+    </expect-rule>
   </fixtures>
   <rules/>
   <inclusive>false</inclusive>
