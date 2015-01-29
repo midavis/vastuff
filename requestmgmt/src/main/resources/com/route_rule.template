@@ -46,7 +46,8 @@
       <fieldValues>
         <fieldValue>
           <field>city</field>
-          <nature>0</nature>
+          <value>$city</value>
+          <nature>7</nature>
           <type>String</type>
         </fieldValue>
       </fieldValues>
@@ -79,6 +80,12 @@
       <string>$state</string>
       <list>
         <string>MD</string>
+      </list>
+    </entry>
+    <entry>
+      <string>$city</string>
+      <list>
+        <string>Harrisburg</string>
       </list>
     </entry>
     <entry>
