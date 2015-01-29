@@ -59,7 +59,7 @@
       <variable>p</variable>
     </modify>
     <freeForm>
-      <text>System.out.println(&quot;routing to  &quot; + $city + (&quot; center&quot;));</text>
+      <text>System.out.println(&quot;routing to  &quot; + p.getCity() + (&quot; center&quot;));</text>
     </freeForm>
   </rhs>
   <imports>
