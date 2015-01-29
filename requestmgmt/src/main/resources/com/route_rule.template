@@ -59,7 +59,7 @@
       <variable>p</variable>
     </modify>
     <freeForm>
-      <text>System.out.println(&quot;fired&quot;);</text>
+      <text>System.out.println(&quot;routing to &quot;);</text>
     </freeForm>
   </rhs>
   <imports>
