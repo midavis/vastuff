@@ -21,7 +21,7 @@
           </fieldConstraint>
           <fieldConstraint>
             <value>$state</value>
-            <operator>in</operator>
+            <operator>==</operator>
             <constraintValueType>7</constraintValueType>
             <expression>
               <parts/>
@@ -76,7 +76,7 @@
     <entry>
       <string>$state</string>
       <list>
-        <string>MD,VA,DC,NC,DE,PA</string>
+        <string>MD</string>
       </list>
     </entry>
     <entry>
