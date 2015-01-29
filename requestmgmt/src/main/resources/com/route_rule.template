@@ -98,21 +98,21 @@
       <string>$state</string>
       <list>
         <string>MD</string>
-        <string></string>
+        <string>MD</string>
       </list>
     </entry>
     <entry>
       <string>$status</string>
       <list>
         <string>initial</string>
-        <string></string>
+        <string>new</string>
       </list>
     </entry>
     <entry>
       <string>$city</string>
       <list>
         <string>Hagerstown</string>
-        <string></string>
+        <string>Bowie</string>
       </list>
     </entry>
     <entry>
