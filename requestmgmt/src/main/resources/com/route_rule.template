@@ -36,19 +36,6 @@
             <fieldName>state</fieldName>
             <fieldType>String</fieldType>
           </fieldConstraint>
-          <fieldConstraint>
-            <value>$status</value>
-            <operator>==</operator>
-            <constraintValueType>7</constraintValueType>
-            <expression>
-              <parts/>
-            </expression>
-            <parameters/>
-            <fieldBinding>a</fieldBinding>
-            <factType>patient</factType>
-            <fieldName>apptReq</fieldName>
-            <fieldType>Collection</fieldType>
-          </fieldConstraint>
         </constraints>
       </constraintList>
       <factType>patient</factType>
@@ -98,12 +85,6 @@
       <string>$state</string>
       <list>
         <string>MD</string>
-      </list>
-    </entry>
-    <entry>
-      <string>$status</string>
-      <list>
-        <string>new</string>
       </list>
     </entry>
     <entry>
