@@ -6,6 +6,8 @@ import com.va.requestmgmt.patient;
 rule "good_dates"
 	dialect "mvel"
 	when
-		p : patient( status == "new" )
+		p : patient( status == "new" , prefdate != null , prefdate2 != null )
 	then
+		p.setValid( true );
+		System.out.println("request is valid");
 end
