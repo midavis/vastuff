@@ -46,5 +46,19 @@
 <property name="outputBinding" value="patient/special"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
+<field position="6" name="newpatient_prefdate" type="InputDate" id="1078593352">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;prefdate (newpatient)quot;"/>
+<property name="inputBinding" value="patient/prefdate"/>
+<property name="outputBinding" value="patient/prefdate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="7" name="newpatient_prefdate2" type="InputDate" id="843992250">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;prefdate2 (newpatient)quot;"/>
+<property name="inputBinding" value="patient/prefdate2"/>
+<property name="outputBinding" value="patient/prefdate2"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
 <dataHolder inputId="patient" name="#0000A0" type="dataModelerEntry" outId="patient" value="com.va.requestmgmt.patient" id="newpatient"/>
 </form>
