@@ -7,7 +7,7 @@ rule "good_dates"
 	ruleflow-group "datecheck"
 	dialect "mvel"
 	when
-		p : patient( status == "new" , prefdate != null , prefdate2 != null )
+		p : patient( status == "initial" , prefdate != null , prefdate2 != null )
 	then
 		p.setValid( true );
 		System.out.println("request is valid");
