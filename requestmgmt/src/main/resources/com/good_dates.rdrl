@@ -6,6 +6,6 @@ import com.va.requestmgmt.patient;
 rule "good_dates"
 	dialect "mvel"
 	when
-		patient( status == "new" )
+		p : patient( status == "new" )
 	then
 end
