@@ -4,4 +4,54 @@
 <property name="name" value="requestmgmt.requestflow1-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="newpatient_fname" type="InputText" id="1778950756">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fname (newpatient)quot;"/>
+<property name="inputBinding" value="patient/fname"/>
+<property name="outputBinding" value="patient/fname"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="newpatient_lname" type="InputText" id="387532334">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lname (newpatient)quot;"/>
+<property name="inputBinding" value="patient/lname"/>
+<property name="outputBinding" value="patient/lname"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="newpatient_special" type="CheckBox" id="899252647">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;special (newpatient)quot;"/>
+<property name="inputBinding" value="patient/special"/>
+<property name="outputBinding" value="patient/special"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="newpatient_state" type="InputText" id="1935387239">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;state (newpatient)quot;"/>
+<property name="inputBinding" value="patient/state"/>
+<property name="outputBinding" value="patient/state"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="newpatient_disabled" type="CheckBox" id="418178832">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;disabled (newpatient)quot;"/>
+<property name="inputBinding" value="patient/disabled"/>
+<property name="outputBinding" value="patient/disabled"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="5" name="newpatient_appttype" type="InputText" id="1381218625">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;appttype (newpatient)quot;"/>
+<property name="inputBinding" value="patient/appttype"/>
+<property name="outputBinding" value="patient/appttype"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="newpatient_status" type="InputText" id="1618028522">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (newpatient)quot;"/>
+<property name="inputBinding" value="patient/status"/>
+<property name="outputBinding" value="patient/status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="patient" name="#0000A0" type="dataModelerEntry" outId="patient" value="com.va.requestmgmt.patient" id="newpatient"/>
 </form>
