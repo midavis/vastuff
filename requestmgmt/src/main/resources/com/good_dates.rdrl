@@ -1,9 +1,11 @@
 package com;
 
 import java.lang.Number;
+import com.va.requestmgmt.patient;
 
 rule "good_dates"
 	dialect "mvel"
 	when
+		patient( status == "new" )
 	then
 end
