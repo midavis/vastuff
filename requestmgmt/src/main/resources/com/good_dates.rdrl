@@ -4,6 +4,7 @@ import java.lang.Number;
 import com.va.requestmgmt.patient;
 
 rule "good_dates"
+	ruleflow-group "datecheck"
 	dialect "mvel"
 	when
 		p : patient( status == "new" , prefdate != null , prefdate2 != null )
