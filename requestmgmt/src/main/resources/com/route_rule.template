@@ -92,6 +92,10 @@
       <list>
         <string>1</string>
         <string>0</string>
+        <string>2</string>
+        <string>1</string>
+        <string>3</string>
+        <string>4</string>
       </list>
     </entry>
     <entry>
@@ -99,30 +103,46 @@
       <list>
         <string>MD</string>
         <string>MD</string>
+        <string>VA</string>
+        <string>VA</string>
+        <string>VA</string>
+        <string></string>
       </list>
     </entry>
     <entry>
       <string>$status</string>
       <list>
         <string>initial</string>
-        <string>new</string>
+        <string>change</string>
+        <string>initial</string>
+        <string>change</string>
+        <string>initial</string>
+        <string></string>
       </list>
     </entry>
     <entry>
       <string>$city</string>
       <list>
         <string>Hagerstown</string>
-        <string>Bowie</string>
+        <string>Washington DC</string>
+        <string>McLean</string>
+        <string>Washington DC</string>
+        <string>Manassas</string>
+        <string></string>
       </list>
     </entry>
     <entry>
       <string>$disabled</string>
       <list>
         <string>true</string>
+        <string>true</string>
+        <string>true</string>
+        <string>true</string>
+        <string>false</string>
         <string>false</string>
       </list>
     </entry>
   </table>
-  <idCol>1</idCol>
-  <rowsCount>2</rowsCount>
+  <idCol>2</idCol>
+  <rowsCount>6</rowsCount>
 </rule>
