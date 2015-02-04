@@ -96,6 +96,7 @@
         <string>1</string>
         <string>3</string>
         <string>4</string>
+        <string>1</string>
       </list>
     </entry>
     <entry>
@@ -107,16 +108,18 @@
         <string>VA</string>
         <string>VA</string>
         <string></string>
+        <string></string>
       </list>
     </entry>
     <entry>
       <string>$status</string>
       <list>
         <string>initial</string>
-        <string>change</string>
+        <string>initial</string>
         <string>initial</string>
         <string>change</string>
         <string>initial</string>
+        <string></string>
         <string></string>
       </list>
     </entry>
@@ -124,10 +127,11 @@
       <string>$city</string>
       <list>
         <string>Hagerstown</string>
-        <string>Washington DC</string>
+        <string>Annapolis</string>
         <string>McLean</string>
         <string>Washington DC</string>
         <string>Manassas</string>
+        <string></string>
         <string></string>
       </list>
     </entry>
@@ -140,9 +144,10 @@
         <string>true</string>
         <string>false</string>
         <string>false</string>
+        <string>false</string>
       </list>
     </entry>
   </table>
   <idCol>2</idCol>
-  <rowsCount>6</rowsCount>
+  <rowsCount>7</rowsCount>
 </rule>
