@@ -93,8 +93,7 @@
         <string>1</string>
         <string>2</string>
         <string>1</string>
-        <string>4</string>
-        <string>4</string>
+        <string>3</string>
       </list>
     </entry>
     <entry>
@@ -103,8 +102,7 @@
         <string>MD</string>
         <string>VA</string>
         <string>VA</string>
-        <string></string>
-        <string></string>
+        <string>MD</string>
       </list>
     </entry>
     <entry>
@@ -113,8 +111,7 @@
         <string>initial</string>
         <string>initial</string>
         <string>change</string>
-        <string></string>
-        <string></string>
+        <string>change</string>
       </list>
     </entry>
     <entry>
@@ -123,8 +120,7 @@
         <string>Annapolis</string>
         <string>McLean</string>
         <string>Washington DC</string>
-        <string></string>
-        <string></string>
+        <string>Washington DC</string>
       </list>
     </entry>
     <entry>
@@ -133,11 +129,10 @@
         <string>true</string>
         <string>true</string>
         <string>true</string>
-        <string>false</string>
-        <string>false</string>
+        <string>true</string>
       </list>
     </entry>
   </table>
-  <idCol>2</idCol>
-  <rowsCount>5</rowsCount>
+  <idCol>4</idCol>
+  <rowsCount>4</rowsCount>
 </rule>
