@@ -63,7 +63,7 @@
       <fieldValues>
         <fieldValue>
           <field>city</field>
-          <value>$city</value>
+          <value>$center</value>
           <nature>7</nature>
           <type>String</type>
         </fieldValue>
@@ -87,6 +87,15 @@
   <packageName>com</packageName>
   <isNegated>false</isNegated>
   <table>
+    <entry>
+      <string>$center</string>
+      <list>
+        <string>Hagerstown</string>
+        <string>Manassas</string>
+        <string>Washington DC</string>
+        <string>Washington DC</string>
+      </list>
+    </entry>
     <entry>
       <string>__ID_KOL_NAME__</string>
       <list>
@@ -112,15 +121,6 @@
         <string>initial</string>
         <string>change</string>
         <string>change</string>
-      </list>
-    </entry>
-    <entry>
-      <string>$city</string>
-      <list>
-        <string>Annapolis</string>
-        <string>McLean</string>
-        <string>Washington DC</string>
-        <string>Washington DC</string>
       </list>
     </entry>
     <entry>
