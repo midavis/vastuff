@@ -91,20 +91,16 @@
       <string>__ID_KOL_NAME__</string>
       <list>
         <string>1</string>
-        <string>0</string>
         <string>2</string>
         <string>1</string>
-        <string>3</string>
         <string>4</string>
-        <string>1</string>
+        <string>4</string>
       </list>
     </entry>
     <entry>
       <string>$state</string>
       <list>
         <string>MD</string>
-        <string>MD</string>
-        <string>VA</string>
         <string>VA</string>
         <string>VA</string>
         <string></string>
@@ -116,9 +112,7 @@
       <list>
         <string>initial</string>
         <string>initial</string>
-        <string>initial</string>
         <string>change</string>
-        <string>initial</string>
         <string></string>
         <string></string>
       </list>
@@ -126,11 +120,9 @@
     <entry>
       <string>$city</string>
       <list>
-        <string>Hagerstown</string>
         <string>Annapolis</string>
         <string>McLean</string>
         <string>Washington DC</string>
-        <string>Manassas</string>
         <string></string>
         <string></string>
       </list>
@@ -141,13 +133,11 @@
         <string>true</string>
         <string>true</string>
         <string>true</string>
-        <string>true</string>
-        <string>false</string>
         <string>false</string>
         <string>false</string>
       </list>
     </entry>
   </table>
   <idCol>2</idCol>
-  <rowsCount>7</rowsCount>
+  <rowsCount>5</rowsCount>
 </rule>
